@@ -12,3 +12,8 @@ Some of them are as below(list to be edited...Work in progress...forever! :)):
 + Bryan O'Sullivan
 + Brent Yorgey
 + Andrew Gibiansky
++ Richard Bird
++ Philip Wadler
++ John Hughes
++ Edward Kmett
++ John Wiegley

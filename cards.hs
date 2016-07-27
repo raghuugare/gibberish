@@ -1,3 +1,5 @@
+module Cards where
+
 import Data.List
 
 data Rank = Ace | Two | Three | Four | Five

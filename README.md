@@ -3,7 +3,7 @@ My learning experiments with Haskell! &lt;3 :)
 
 # Thanks
 
-My THANKS go out to many inspired (& hence inspiring!) teacher-friend-s.
+My THANKS go out to many inspired (& hence inspiring!) teacher/guru-s
 
 Some of them are as below(list to be edited...Work in progress...forever! :)):
 

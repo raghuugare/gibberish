@@ -9,9 +9,10 @@ Some of them are as below(list to be edited...Work in progress...forever! :)):
 
 + My dear friend Vijay Anant with whom this (M)adventure started (& keeps starting!) :)
 + James McCarthy
++ Donald Knuth
++ Robert Sedgwick
 + Simon Peyton Jones
 + Graham Hutton
-+ Bryan O'Sullivan
 + Brent Yorgey
 + Andrew Gibiansky
 + Richard Bird
@@ -19,3 +20,5 @@ Some of them are as below(list to be edited...Work in progress...forever! :)):
 + John Hughes
 + Edward Kmett
 + John Wiegley
++ Conor McBride
++ Ross Paterson

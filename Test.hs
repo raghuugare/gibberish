@@ -16,5 +16,7 @@ students = [
 
 emails = catMaybes $ fmap email students
 
+squares = fmap (^2) [1..]
+
 main =
   putStrLn "Hello!"

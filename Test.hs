@@ -18,5 +18,8 @@ emails = catMaybes $ fmap email students
 
 squares = fmap (^2) [1..]
 
+orderedPairs :: Int -> [(Int, Int)]
+orderedPairs n = [(x,y) | x <-[1..n], y <- [1..n]]
+
 main =
   putStrLn "Hello!"

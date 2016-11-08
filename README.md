@@ -1,5 +1,5 @@
 # gibberish
-My learning experiments with Haskell! &lt;3 :)
+My learning experiments with the Haskell Programming Language! &lt;3 :)
 
 # Thanks
 

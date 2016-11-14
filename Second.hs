@@ -11,4 +11,6 @@ tuple :: (Int, String, Char)
 tuple = (integer, str, character)
 
 main :: IO()
-main = print tuple
+main = do 
+        print tuple
+        print "Thank You!"

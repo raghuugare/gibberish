@@ -1,6 +1,7 @@
 module Main
   where
 
+  -- Factorial function definition in a recursive manner.
   factorial 1 = 1
   factorial n = n * factorial (n - 1)
 

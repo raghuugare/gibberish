@@ -1,7 +1,7 @@
 integer :: Int
 integer = 42
 
-character::Char
+character :: Char
 character = 'R'
 
 str :: String

@@ -1,3 +1,4 @@
+{- Demo of the LET keyword -}
 integer :: Int
 integer =
   let one = 1

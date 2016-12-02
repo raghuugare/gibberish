@@ -21,5 +21,5 @@ squares = fmap (^2) [1..]
 orderedPairs :: Int -> [(Int, Int)]
 orderedPairs n = [(x,y) | x <-[1..n], y <- [1..n]]
 
-main =
-  putStrLn "Hello!"
+main :: IO ()
+main = putStrLn "Hello!"

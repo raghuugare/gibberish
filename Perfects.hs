@@ -26,6 +26,6 @@ perfectQ :: Int -> Bool
 perfectQ n = sumList (factors n) == 2*n
 
 perfects :: Int -> [Int]
-perfects = filter perfectQ [2..1000000]
+perfects = filter perfectQ [2,4..10000]
 
 

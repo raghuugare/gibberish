@@ -6,9 +6,8 @@ License     : MIT
 Maintainer  : raghu.ugare@email.com
 Stability   : experimental
 Portability : POSIX
-
 -}
-module Perfects(factors, perfectQ, perfects) where
+module Perfects(factors, sumList, perfectQ, perfects) where
 
 -- | All the factors of a given +ve integer 'n'.
 --   Written using list comprehension as shown below:

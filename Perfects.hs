@@ -10,7 +10,7 @@ Portability : POSIX
 module Perfects(factors, sumList, perfectQ, perfects) where
 
 -- | All the factors of a given +ve integer 'n'.
---   Written using list comprehension as shown below:
+-- Written using list comprehension as shown below:
 -- 
 -- @
 -- factors n = [x |  x <- [1..n], n \`mod\` x == 0]
@@ -19,7 +19,7 @@ factors :: Int -> [Int]
 factors n = [x |  x <- [1..n], n `mod` x == 0]
 
 -- | Sum of a List of ints
--- | Uses the 'foldr' higher-order function to achieve the same.
+-- Uses the 'foldr' higher-order function to achieve the same.
 sumList :: [Int] -> Int
 sumList = foldr (+) 0
 

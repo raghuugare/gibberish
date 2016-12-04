@@ -25,7 +25,7 @@ sumList = foldr (+) 0
 perfectQ :: Int -> Bool
 perfectQ n = sumList (factors n) == 2*n
 
-perfects :: Int -> [Int]
+perfects :: [Int]
 perfects = filter perfectQ [2,4..10000]
 
 

@@ -9,8 +9,9 @@ Portability : POSIX
 -}
 module FunZip(fibs) where
 
--- | The Fibonacci series. Infinite list. Uses 'zipWith' & recursion.
--- | Use 'take' function to take as much as you need!
+-- | The Fibonacci series as an infinite list.
+-- | Uses 'zipWith' & recursion.
+-- | Use 'take' to take as much as you need!
 --
 -- @
 -- fibs = 1 : 1 : zipWith (+) fibs (tail fibs)

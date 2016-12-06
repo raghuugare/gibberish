@@ -12,11 +12,13 @@ Playing with the idea of @<https://en.wikipedia.org/wiki/Pascal's_triangle Pasca
 module Pascal(
   -- * Introduction
   -- $intro
+  
   -- * Types
   Row
+  
   -- * Functions
-  , pascal
-  , row) where
+  , row
+  , pascal) where
 
 -- $intro
 -- This module has some functions that let us play with Pascal triangles of different sizes

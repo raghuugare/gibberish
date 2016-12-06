@@ -40,6 +40,7 @@ type Row = [Int]
 
 -- | Each row of the Pascal's Triangle.
 -- Each row @n@ corresponds to the co-efficients of the expansion __@(a + b)^n@__
+--
 -- >>> row 1
 -- [1, 1]
 -- >>> row 2

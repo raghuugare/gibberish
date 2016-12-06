@@ -39,6 +39,13 @@ module Pascal(
 type Row = [Int]
 
 -- | Each row of the Pascal's Triangle.
+-- Each row @n@ corresponds to the co-efficients of the expansion __@(a + b)^n@__
+-- >>> row 1
+-- [1, 1]
+-- >>> row 2
+-- [1,2,1]
+-- >>> row 3
+-- [1,3,3,1]
 row :: Int -> Row
 row 0 = [1]
 row n = zipWith (+) (0 : row (n-1)) (row (n-1) ++ [0])

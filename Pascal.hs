@@ -21,8 +21,7 @@ module Pascal(
   , pascal) where
 
 -- $intro
--- This module has some functions that let us play with Pascal triangles of different sizes
--- Each row @r@ corresponds to the co-efficients of the expansion __@(a + b)^r@__
+-- This module has some functions pertaining to Pascal triangles.
 --
 -- For example, Pascal's triangle with @n=3@ looks like below:
 -- 

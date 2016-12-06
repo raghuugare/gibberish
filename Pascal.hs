@@ -42,7 +42,7 @@ type Row = [Int]
 -- Each row @n@ corresponds to the co-efficients of the expansion __@(a + b)^n@__
 --
 -- >>> row 1
--- [1, 1]
+-- [1,1]
 -- >>> row 2
 -- [1,2,1]
 -- >>> row 3

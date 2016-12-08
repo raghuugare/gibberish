@@ -51,6 +51,6 @@ row n = zipWith (+) (0 : row (n-1)) (row (n-1) ++ [0])
 -- | The Pascal's Triangle.
 -- Represented as a list of 'row's
 pascal :: Int -> [Row]
-pascal n = map row [0..n]
+pascal n = fmap row [0..n]
 
 

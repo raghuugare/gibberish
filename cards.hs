@@ -18,3 +18,7 @@ data Card = Card Rank Suit
 
 -- A 'hand' is simply a set (or list) of cards dealt (hopefully!) randomly.
 type Hand = [Card]
+
+-- Pick the best hand from a list of hands.
+pick :: [Hand] -> Hand
+pick hands = undefined

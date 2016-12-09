@@ -40,6 +40,9 @@ d3 = beside (V2 1 1) c1 c2 # showOrigin
 d4 :: Diagram B
 d4 = c1 ||| c2
 
-main = mainWith d3
+s :: Diagram B
+s = square 2
+
+main = mainWith s
 
 

@@ -41,7 +41,7 @@ d4 :: Diagram B
 d4 = c1 ||| c2
 
 s :: Diagram B
-s = square 2
+s = square 2 # fc white # showOrigin
 
 main = mainWith s
 

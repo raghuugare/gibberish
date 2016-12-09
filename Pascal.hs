@@ -52,5 +52,3 @@ row n = zipWith (+) (0 : row (n-1)) (row (n-1) ++ [0])
 -- Represented as a list of 'row's
 pascal :: Int -> [Row]
 pascal n = fmap row [0..n]
-
-

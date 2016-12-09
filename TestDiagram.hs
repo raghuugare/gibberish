@@ -41,6 +41,5 @@ d4 :: Diagram B
 d4 = c1 ||| c2
 
 main = mainWith d3
--- main = mainWith myCircle
 
 

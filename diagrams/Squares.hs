@@ -17,18 +17,15 @@ import Diagrams.Backend.SVG.CmdLine
 -- > ./Squares -l -w 400 -h 400 -o Squares.svg <RET>
 -- @
 --
-s :: Diagram B
-s = square 2 # lc blue # fc white # showOrigin
+--s :: Diagram B
+--s = square 1 # lc yellow # showOrigin
 
-s2 :: Diagram B
-s2 = s `atop` (rotateBy (1/3) s)
+sn :: Diagram B
+sn = mconcat $ fmap rotateBy (map (\x -> 1/x) [0,2..30]) <*> pure s
+      where
+       s :: Diagram B
+       s = square 1 # lc yellow # showOrigin
 
-s3 :: Diagram B
-s3 = s `atop` (rotateBy (1/3) s2)
-
-s4 :: Diagram B
-s4 = s `atop` (rotateBy (1/4) s3)
-
-main = mainWith s4
+main = mainWith sn
 
 

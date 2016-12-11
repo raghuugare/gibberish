@@ -12,12 +12,12 @@ Some of them are as below(list to be edited...Work in progress...forever! :)):
 + Donald Knuth
 + Robert Sedgwick
 + Simon Peyton Jones
++ Philip Wadler
++ John Hughes
 + Graham Hutton
 + Brent Yorgey
 + Andrew Gibiansky
 + Richard Bird
-+ Philip Wadler
-+ John Hughes
 + Edward Kmett
 + John Wiegley
 + Conor McBride

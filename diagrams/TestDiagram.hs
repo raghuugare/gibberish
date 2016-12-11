@@ -12,6 +12,10 @@ import Diagrams.Backend.SVG.CmdLine
 -- > ghc TestDiagram <RET>
 -- > ./TestDiagram -w 100 -h 100 -o TestDiagram.svg <RET>
 -- @
+-- Note: To run in an auto-compiling L-oop, use -l switch & open the SVG file in an app like say, Gapplin (on Mac)
+-- @
+-- > ./TestDiagram -l -w 400 -h 400 -o TestDiagram.svg <RET>
+-- @
 --
 myCircle :: Diagram B
 -- myCircle = circle 1 # lc red # fc white # showOrigin

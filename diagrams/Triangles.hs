@@ -6,7 +6,7 @@ import Diagrams.Backend.SVG.CmdLine
 -- import Diagrams.Backend.xxx.CmdLine
 -- where xxx is the backend you would like to use.
 
--- | Commands to run this file are as below: 
+-- | Commands to run this file: 
 --
 -- @
 -- > ghc Triangles <RET>

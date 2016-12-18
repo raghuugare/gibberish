@@ -44,12 +44,17 @@ d3 = beside (V2 1 1) c1 c2 # showOrigin
 d4 :: Diagram B
 d4 = c1 ||| c2
 
+d5 :: Diagram B
+d5 = c1
+     ===
+     c2
+
 s :: Diagram B
 s = square 2 # lc blue # fc white # showOrigin
 
 s2 :: Diagram B
 s2 = s `atop` (rotateBy (1/3) s)
 
-main = mainWith s2
+main = mainWith d5
 
 

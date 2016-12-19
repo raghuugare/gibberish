@@ -9,6 +9,9 @@ Portability : POSIX
 -}
 module Perms(sublists) where
 
+-- for filterM
+import Control.Monad
+
 -- | Sublists of a list obtained by non-deterministic (list, which represents choices/possibilities) nature of an element being a member or not in the list.
 -- Written as shown below:
 -- 

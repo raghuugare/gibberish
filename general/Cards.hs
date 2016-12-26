@@ -22,3 +22,7 @@ type Hand = [Card]
 -- Pick the best hand from a list of hands.
 pick :: [Hand] -> Hand
 pick hands = undefined
+
+-- assign a unique(?) score to each type of Hand...
+score :: Hand -> Int
+score h = undefined

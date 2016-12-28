@@ -4,5 +4,14 @@ integer = one + two
     one = 1
     two = 2
 
+{-
+Physics-style equatios in Haskell supported by where...
+-}
+v = u + a*t
+  where
+    u = 0.0
+    a = 9.8
+    t = 10
+
 main = print integer
   

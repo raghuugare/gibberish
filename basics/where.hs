@@ -5,7 +5,7 @@ integer = one + two
     two = 2
 
 {-
-Physics-style equatios in Haskell supported by where...
+Physics-style equation in Haskell supported by where...
 -}
 v = u + a*t
   where

@@ -21,7 +21,7 @@ module Pascal(
   , pascal) where
 
 -- $intro
--- This module has some functions pertaining to Pascal triangles.
+-- This module has some functions pertaining to Pascal's triangles.
 --
 -- For example, Pascal's triangle with @n=3@ looks like below:
 -- 

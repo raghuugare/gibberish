@@ -17,7 +17,7 @@ module FunZip(fibs) where
 -- fibs = 1 : 1 : zipWith (+) fibs (tail fibs)
 -- @
 --
--- Sample usage is as below:
+-- Sample usage is as below (note that our Fibonacci series begins with a 1 & not 0):
 -- 
 -- >>> take 5 fibs
 -- [1,1,2,3,5]

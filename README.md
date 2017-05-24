@@ -11,6 +11,7 @@ Some of them are as below(list to be edited...Work in progress...forever! :)):
 + James McCarthy
 + Donald Knuth
 + Robert Sedgwick
++ Paul Graham
 + Simon Peyton Jones
 + Philip Wadler
 + John Hughes

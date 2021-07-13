@@ -5,5 +5,6 @@ integer =
       two = 2
       in one + two
 
+main :: IO ()
 main = print integer
          
